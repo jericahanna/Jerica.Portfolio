@@ -1,0 +1,34 @@
+
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-shadow: black;
+    font-family: "Tilt Neon";
+    margin: 0;
+
+}
+
+img { 
+    max-width: 40%;
+    max-height: 40%;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+nav {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: pink;
+    height: 50px;
+}
