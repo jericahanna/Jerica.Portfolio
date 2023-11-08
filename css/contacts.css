@@ -1,19 +1,37 @@
 body {
     margin: 0;
+    background-color: pink;
+
 }
 
 header {
+    background-image: url(pattern.png);
+    height: 200px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-text {
+    font-size: 50px;
+    text-shadow: 2px;
+    text-shadow: black;
+    text-align: center;
+}
+
+h1 {
     display: flex;
     justify-content: center;
-    text-shadow: black;
-    font-family: "Tilt Neon";
-    margin: 0;
 
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+}
 img { 
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 10%;
+    max-height: 10%;
     margin: 0;
 }
 
@@ -22,15 +40,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: pink;
+    background-color: white;
     height: 50px;
+    border: 2px solid black;
 }
-
-h1 {
-    text-align: center;
-    margin: 0;
-}
-
 
 form {
     display: flex;
