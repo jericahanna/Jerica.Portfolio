@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
     background-color: pink;
@@ -11,6 +9,7 @@ header {
     height: 200px;
     align-content: center;
     justify-content: center;
+    align-items: center;
 }
 
 #banner-text {
@@ -18,9 +17,7 @@ header {
     text-shadow: 2px;
     text-shadow: black;
     text-align: center;
-    align-items: center;
 }
-
 
 h1 {
     display: flex;
@@ -33,36 +30,68 @@ h2 {
     justify-content: center;
 }
 
-
-img { 
-    max-width: 40%;
-    max-height: 40%;
-    margin: 0;
-    display: flex;
-    float: left;
-}
-
 nav {
-    color:white;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: white;
     height: 50px;
-    margin: 0;
-    padding: 0;
     border: 2px solid black;
 }
 
+section {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+    background-color: #ffc0cb;
+    border-radius: 10px;
+    padding: 20px;
+}
 
 table {
+    width: 80%;
     border-collapse: collapse;
-    width: 50%;
     margin: 20px auto;
-    float: right;
+    background-color: #ffe0f0;
+    text-align: center;
 }
+
 th, td {
     border: 1px solid black;
-    padding: 8px;
-    text-align: left;
+    padding: 10px;
+}
+
+.projects .project {
+    background-color: #ffe0f0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.projects .project a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.projects .project a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0 auto 20px auto;
+    padding-left: 0;
+    text-align: center;
+}
+
+img {
+    max-width: 40%;
+    max-height: 40%;
+    margin: 10px auto;
+    display: block;
 }
